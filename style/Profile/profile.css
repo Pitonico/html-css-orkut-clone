@@ -1,0 +1,88 @@
+header.menu {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important; /*prevalecerá em relação as outras*/
+}
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.photo, 
+.description, 
+.counter_friend, 
+.counter_community {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* aplica a todos os elementos menos o primeiro */
+.container :not(:first-child) {
+    margin-top: 10px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.photo_avatar {
+    max-height: 300px;
+    max-width: 220px;
+}
+
+.photo_avatar > img {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+}
+
+.photo_tools > div > i {
+    margin-right: 15px;
+}
+
+.photo_name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.description {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.counter_friend , .counter_community  {
+    padding: 20px;
+}
+
+.counter_friend h3 , .counter_community h3  {
+    margin-bottom: 10px;
+}
+
+header > nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header > nav > #title > h1 {
+    font-size: 50px;
+}
+
+header > nav > #hamburguer > label {
+    font-size: 30px;
+}

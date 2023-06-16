@@ -1,0 +1,86 @@
+.container {
+    width: 80%;
+    max-width: 650px;
+    height: 70vh;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 10px;
+        box-shadow: 10px 10px 25px 4px rgba(65,61,61,0.68);
+    -webkit-box-shadow: 10px 10px 25px 4px rgba(65,61,61,0.68);
+    -moz-box-shadow: 10px 10px 25px 4px rgba(65,61,61,0.68);
+}
+
+.fields {
+    margin: 5% 10%;
+}
+
+.fields_title {
+    display: flex;
+    justify-content: center;
+}
+
+.fields #field_title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fields_textboxs {
+    height: 100px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.fields_textboxs > input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.fields_remember {
+    margin-bottom: 20px;
+}
+
+#btn_login {
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fields_recovery {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.fields_create {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.fields_recovery > a, .fields_create > a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo > img {
+    height: 80px;
+}

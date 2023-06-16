@@ -1,0 +1,37 @@
+@media screen and (min-width: 650px) {
+    .container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+
+
+    .container :not(:first-child) {
+        margin-top: 0;
+    }
+
+    .description {
+        margin-left: 10px;
+    }
+
+    .counter_friend, .counter_community {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+
+    .counter_friend, .counter_community {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        max-width: 600px;
+        margin-right: 10px;
+    }
+}
